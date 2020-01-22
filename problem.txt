@@ -1,0 +1,12 @@
+Create a multi-threaded application that will read a text file and does a word count.
+Use any programming language of your choice.
+Program Input : http://www.gutenberg.org/files/2600/2600-0.txt          
+
+Read the above document in the program and split the document automatically into several parts, to compute the below in parallel - For each part :         
+Find total words in the part        
+Compute list of words and how many times they appear in the part      
+Identify the most used word and how many times they appear in the part
+
+Output: Print Summary    
+
+Aggregate results from all parts and display a summary of Total Word count and top 5 Most used words and how many times they appear in the document
